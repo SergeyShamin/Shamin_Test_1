@@ -1,0 +1,5 @@
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/obj/Debug/net6.0/Task_1.csproj.AssemblyReference.cache
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/obj/Debug/net6.0/Task_1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/obj/Debug/net6.0/Task_1.AssemblyInfoInputs.cache
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/obj/Debug/net6.0/Task_1.AssemblyInfo.cs
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/obj/Debug/net6.0/Task_1.csproj.CoreCompileInputs.cache
