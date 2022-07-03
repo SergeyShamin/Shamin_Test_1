@@ -31,6 +31,21 @@ string[] FirstArray()
     return array;
 }
 
+string[] SecondArray(string[] array)
+{
+    string[] result = new string[array.Length];
+    int count = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        string text = array[i];
+        if (text.Length <= 3)
+        {
+            result[i] = text;
+        }
+    }
+    return result;
+}
 
 
-
+string[] array = FirstArray();
+SecondArray(array);
