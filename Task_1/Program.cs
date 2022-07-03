@@ -21,6 +21,7 @@ int ReadInt()
 
 string[] FirstArray()
 {
+    Console.WriteLine("Задайте длину массива: ");
     int length = ReadInt();
     string[] array = new string[length];
     for (int i = 0; i < length; i++)
@@ -31,29 +32,27 @@ string[] FirstArray()
     return array;
 }
 
-string[] SecondArray(string[] array)
+void PrintArray (string[] array, int count)
 {
-    string[] result = new string[array.Length];
-    int count = 0;
-    for (int i = 0; i < array.Length; i++)
-    {
-        string text = array[i];
-        if (text.Length <= 3)
-        {
-            result[i] = text;
-        }
-    }
-    return result;
-}
-
-void PrintArray (string[] array)
-{
-    for (int i = 0; i < array.Length; i++) 
+    for (int i = 0; i < count; i++) 
     {
         Console.WriteLine($"{array[i]}");
     }
 }
 
 string[] array = FirstArray();
-SecondArray(array);
-PrintArray(array);
+string[] result = new string[array.Length];
+int count = 0;
+for (int i = 0; i < array.Length; i++)
+{
+    string text = array[i];
+    if (text.Length <= 3)
+    {
+        result[count] = text;
+        count = count + 1;
+    }
+}
+
+Console.WriteLine();
+Console.WriteLine("Результат: ");
+PrintArray(result, count);

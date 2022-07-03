@@ -3,3 +3,13 @@
 /Users/sergey/Desktop/git 2/Shamin_Test/Task_1/obj/Debug/net6.0/Task_1.AssemblyInfoInputs.cache
 /Users/sergey/Desktop/git 2/Shamin_Test/Task_1/obj/Debug/net6.0/Task_1.AssemblyInfo.cs
 /Users/sergey/Desktop/git 2/Shamin_Test/Task_1/obj/Debug/net6.0/Task_1.csproj.CoreCompileInputs.cache
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/bin/Debug/net6.0/Task_1
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/bin/Debug/net6.0/Task_1.deps.json
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/bin/Debug/net6.0/Task_1.runtimeconfig.json
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/bin/Debug/net6.0/Task_1.dll
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/bin/Debug/net6.0/Task_1.pdb
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/obj/Debug/net6.0/Task_1.dll
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/obj/Debug/net6.0/refint/Task_1.dll
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/obj/Debug/net6.0/Task_1.pdb
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/obj/Debug/net6.0/Task_1.genruntimeconfig.cache
+/Users/sergey/Desktop/git 2/Shamin_Test/Task_1/obj/Debug/net6.0/ref/Task_1.dll
