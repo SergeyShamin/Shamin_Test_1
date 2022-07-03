@@ -19,7 +19,7 @@ int ReadInt()
     return Convert.ToInt32(input);
 }
 
-string[] FirstArray()
+string[] ReadArray()
 {
     Console.WriteLine("Задайте длину массива: ");
     int length = ReadInt();
@@ -40,7 +40,10 @@ void PrintArray (string[] array, int count)
     }
 }
 
-string[] array = FirstArray();
+// Этап 1. Чтение массива из консоли
+string[] array = ReadArray();
+
+// Этап 2. Фильтрация элементов массива
 string[] result = new string[array.Length];
 int count = 0;
 for (int i = 0; i < array.Length; i++)
@@ -53,6 +56,7 @@ for (int i = 0; i < array.Length; i++)
     }
 }
 
+// Этап 3. Вывод результата 
 Console.WriteLine();
 Console.WriteLine("Результат: ");
 PrintArray(result, count);
