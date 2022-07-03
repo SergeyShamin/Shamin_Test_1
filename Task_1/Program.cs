@@ -46,6 +46,14 @@ string[] SecondArray(string[] array)
     return result;
 }
 
+void PrintArray (string[] array)
+{
+    for (int i = 0; i < array.Length; i++) 
+    {
+        Console.WriteLine($"{array[i]}");
+    }
+}
 
 string[] array = FirstArray();
 SecondArray(array);
+PrintArray(array);
